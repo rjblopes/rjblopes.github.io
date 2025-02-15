@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:rjblopes.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:rjblopes.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:rjblopes.github.io",
+      "publicKeyJwk": {
+        "kty":"EC",
+        "crv":"secp256k1",
+        "x":"HMV/6MZKa6WI8h/m04p0shJhZVe7O7sJz0nXHg43jvI=",
+        "y":"N9ZBn2XK0Me7K6MYRUgRXEcTyuYjlheSdv82N6zz9pc="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:rjblopes.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:rjblopes.github.io#owner"
+  ]
+}
