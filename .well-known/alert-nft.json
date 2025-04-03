@@ -1,0 +1,22 @@
+{
+  "name": "Alert NFT",
+  "description": "An alert NFT",
+  "image": "https://loremflickr.com/cache/resized/defaultImage.small_640_480_nofilter.jpg",
+  "external_url": "https://example.com/nft/001",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "Jane Doe"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "animation_url": "ipfs://QmExampleHash/cryptoart001.mp4",
+  "background_color": "ffffff"
+}
